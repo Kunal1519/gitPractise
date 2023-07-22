@@ -8,3 +8,10 @@ class people:
 
 obj = people("Kunal")
 obj.display()
+
+
+def addition(a,b):
+    return a+b
+
+def multiplicaiton(a,b):
+    return a*b
