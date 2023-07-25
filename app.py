@@ -1,3 +1,5 @@
+#main program
+
 class people:
     def __init__(self,name):
         self.name = name
