@@ -8,15 +8,6 @@ class people:
         print(f"{self.name}")
 
 
-def load_data(filepath):
-    try:
-        with open(filepath, "r") as f:
-            data = json.load(f)
-            return data
-    except:
-        return {}
-
-
 def addition(a,b):
     print(a+b)
     return a+b
