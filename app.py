@@ -1,3 +1,6 @@
+#from github changes
+done here
+
 class people:
     def __init__(self,name):
         self.name = name
@@ -11,6 +14,7 @@ obj.display()
 
 
 def addition(a,b):
+    print(a+b)
     return a+b
 
 def multiplicaiton(a,b):
